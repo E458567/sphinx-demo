@@ -35,6 +35,6 @@ goto end
 :end
 popd
 
-XCOPY docs/html docs /E /Y
-RD /Q /S docs/doctrees
-RD /Q /S docs/html
+XCOPY docs\html docs /E /Y
+RD /Q /S docs\doctrees
+RD /Q /S docs\html
